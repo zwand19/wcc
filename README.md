@@ -23,8 +23,11 @@ This will pull all of the latest files from the repository. If you have changed 
 ### Add your code
 
 `git add .`
+
 `git commit -m "add a commit message here"`
+
 `git pull --rebase`
+
 `git push`
 
 The first step tells git that you want to push all of the changes you have made. The '.' character means everything from the current directory. if you only wanted to push a specific file, you could run `git add path\to\file.html` and commit only that. This is referred to as "staging files".
