@@ -30,7 +30,7 @@ This will pull all of the latest files from the repository. If you have changed 
 
 `git push`
 
-The first step tells git that you want to push all of the changes you have made. The '.' character means everything from the current directory. if you only wanted to push a specific file, you could run `git add path\to\file.html` and commit only that. This is referred to as "staging files".
+The first step tells git that you want to push all of the changes you have made. The '.' character means everything from the current directory. If you only wanted to push a specific file, you could run `git add path\to\file.html` and commit only that. This is referred to as "staging files".
 
 The second step packages all of your "staged files" (from git add) into a changeset and tags it with a message.
 
