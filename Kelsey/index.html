@@ -1,19 +1,39 @@
 <html>
 	<head>
-	<link rel="stylesheet" type="text/css" href="/styles.css"/>
+		<title>Zack's Site</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/fonts.css">
+		<link rel="stylesheet" type="text/css" href="styles/mobile.css">
 	</head>
 	<body>
-		<h1>Hi there</h1>
-		<p class="special">This is a bunch of text I copied. This is a bunch of text I copied. This is a bunch of text I copied. This is a bunch of text I copied. This is a bunch of text I copied. This is a bunch of text I copied. This is a bunch of text I copied.</p>
-		<a href="http://google.com" target="_blank">Take me to google</a>
-		<ul class="pink">
-			<li class="blue">I should be blue</li>
-			<li class="green">I should be green</li>
-			<li class="green">I should be green</li>
-		</ul>
-		<p class="box">Text 1</p>
-		<p class="box">Text 2</p>
-		<img src="http://www.dogbreedinfo.com/images14/BerneseMountainDogKLEOPATRAHERUSPOSEIDONAS.JPG" alt="dog"/>
-		<img src="images/dog.jpeg" alt="dog2"/>
+		<section id="header-section">
+			<h1>Zack's Site</h1>
+			<img src="images/spain.jpeg" />
+			<div id="overlay"></div>
+		</section>
+		<section id="content-section">
+			<h2>Things I know how to do:</h2>
+			<ul>
+				<li>Make a list</li>
+				<li class="strong">Bold some font</li>
+			</ul>
+		</section>
+		<section id="contact-section">
+		<form action="http://formspree.io/kelseylsaylor@gmail.com" method="POST">
+		<form>
+			<input type="text" required placeholder="Email" name="email" />
+			<br />
+			<input type="number" placeholder="Age" min="21" max="99" value=21 name="age" />
+			<br />
+			<select name="Gender">
+				<option>Male</option>
+				<option>Female</option>
+			</select>
+			<br />
+			<textarea placeholder="Type your message here..." name="_subject"></textarea><br />
+			<button type="submit">Submit</button>
+		</form>
+
+		</section>
 	</body>
 </html>
