@@ -1,0 +1,13 @@
+@media (max-width: 600px){
+	#header-section {
+		height: 350px;
+}
+#header-section img{
+	width: auto;
+	height: 100%;
+	top:0;
+}
+form {
+	height: 100%;
+	}
+}
