@@ -1,0 +1,80 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background: #eee;
+	font-family: 'Personality', 'Arial';
+	letter-spacing: 1px;
+}
+h1 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+section {
+	padding: 50px 20%;
+	text-align: center;
+	position: relative;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+#header-section {
+	overflow: hidden;
+	height: 325px;
+}
+
+#header-section img {
+	position: absolute;
+	top: -50;
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+#content-section {
+	background: #541d87;
+	color: white;
+	font-family: 'Arial';
+}
+textarea {
+	height: 100px;
+	width: 250px;
+}
+
+form {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form * {
+	margin-bottom: 10px;
+	width: 100%;
+}
+button *{
+	padding: 10px;
+}
+#overlay {
+	background: red;
+	opacity: 0.1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
