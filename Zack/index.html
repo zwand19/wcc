@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>My Form Site</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/fonts.css">
+		<link rel="stylesheet" type="text/css" href="styles/mobile.css">
+	</head>
+	<body>
+		<section id="header-section">
+			<h1>Zack's Site</h1>
+			<img src="images/surf.jpeg" />
+			<div id="green-overlay"></div>
+		</section>
+		<section id="content-section">
+			<h2>Things I know how to do:</h2>
+			<ul>
+				<li>Make a list</li>
+				<li class="strong">Bold some font</li>
+			</ul>
+		</section>
+		<section id="contact-section">
+			<form action="http://formspree.io/z.wand19@gmail.com" method="POST">
+				<input type="text" required placeholder="Email" value="joe.schmoe@gmail.com" name="email" />
+				<br />
+				<input type="number" placeholder="Age" min="21" max="99" value="50" name="age" />
+				<br />
+				<select name="gender">
+					<option>Male</option>
+					<option selected>Female</option>
+				</select>
+				<br />
+				<textarea placeholder="Type your message subject here..." name="_subject"></textarea>
+				<br />
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</body>
+</html>
