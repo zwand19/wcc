@@ -1,0 +1,85 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background: #eee;
+	font-family: 'Personality', 'Arial';
+	letter-spacing: 1px;
+}
+h1 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	position: absolute;
+	top: 140px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	z-index: 2;
+
+}
+section {
+	padding: 50px 20%;
+	text-align: center;
+	position: relative;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+#overlay {
+	background: #000088;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#header-section {
+	overflow: hidden;
+	height: 300px;
+}
+
+#header-section img {
+	position: absolute;
+	top: -250;
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+#content-section {
+	background: #541d87;
+	color: white;
+	font-family: 'Arial';
+}
+textarea {
+	height: 100px;
+	width: 250px;
+}
+button {
+	padding: 10px;
+	border-radius: 0;
+}
+
+form {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+form * {
+	margin-bottom: 10px;
+	width: 100%;
+}

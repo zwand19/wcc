@@ -1,1 +1,40 @@
-<html></html>
+<html>
+	<head>
+		<title>My Form Site</title>	
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/fonts.css">
+	</head>
+	<body>
+		<section id="header-section">
+			<h1>Zack's Site</h1>
+			<img src="images/girl-painting.jpg" />
+			<div id="overlay"></div>
+		</section>
+		<section id="content-section">
+			<h2>Things I know how to do:</h2>
+			<ul>
+				<li>Make a list</li>
+				<li class="strong">Bold some font</li>
+			</ul>
+		</section>
+		<section id="contact-section">
+		<form action="https://formspree.io/jake.chrystal@gmail.com" method="POST">
+			<input type="text" required placeholder=" Email" name="email" />
+			<br />
+			<input type="number" placeholder=" Age" min="" name="age" />
+			<br />
+			<select placeholder="Sex" name="gender">
+				<option>Yes</option>
+				<option>Yes</option>
+				<option>Yes</option>
+				<option>Oh God Yes</option>
+				<option>Oh God</option>
+				<option>It's Everywhere</option>
+			</select>
+			<textarea cols="4" placeholder="Type your message here..." name="_subject"></textarea>
+			<br />
+			<button type="submit">Submit</button>
+		</form>	
+		</section>
+	</body>
+</html>
